@@ -1,0 +1,6 @@
+//  project_1
+use java locale class
+numberformat class for currency format
+data class for printing date
+dateformat for date formating
+resourcebundle for reading properties file
