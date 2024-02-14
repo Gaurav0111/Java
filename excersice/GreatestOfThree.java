@@ -1,3 +1,4 @@
+package excersice;
 public class GreatestOfThree {
     public static void main(String[] args) {
         int a=12,b=13,c=14;
