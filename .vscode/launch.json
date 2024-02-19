@@ -1,0 +1,203 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ActionListnre",
+            "request": "launch",
+            "mainClass": "Advance_java_code.ActionListnre",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist",
+            "request": "launch",
+            "mainClass": "Advance_java_code.Arraylist",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "CollectionExample",
+            "request": "launch",
+            "mainClass": "Advance_java_code.CollectionExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Form",
+            "request": "launch",
+            "mainClass": "Advance_java_code.Form",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "GUI",
+            "request": "launch",
+            "mainClass": "Advance_java_code.GUI",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListOperations",
+            "request": "launch",
+            "mainClass": "Advance_java_code.LinkedListOperations",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "MCA",
+            "request": "launch",
+            "mainClass": "Advance_java_code.MCA",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "queue",
+            "request": "launch",
+            "mainClass": "Advance_java_code.queue",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "ArraySwitch",
+            "request": "launch",
+            "mainClass": "ArraySwitch",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Assignment1",
+            "request": "launch",
+            "mainClass": "Assignment1",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SalarySystem",
+            "request": "launch",
+            "mainClass": "Assignments.SalarySystem",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "DataType",
+            "request": "launch",
+            "mainClass": "DataType",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Encapsulation",
+            "request": "launch",
+            "mainClass": "Encapsulation",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "First",
+            "request": "launch",
+            "mainClass": "First",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Inheritance",
+            "request": "launch",
+            "mainClass": "Inheritance",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Input",
+            "request": "launch",
+            "mainClass": "Input",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "ShapeDemo",
+            "request": "launch",
+            "mainClass": "ShapeDemo",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SwitchCase",
+            "request": "launch",
+            "mainClass": "SwitchCase",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "abstraction",
+            "request": "launch",
+            "mainClass": "abstraction",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "EvenOddPlaceSum",
+            "request": "launch",
+            "mainClass": "excersice.EvenOddPlaceSum",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "FlipDigitWithPosition",
+            "request": "launch",
+            "mainClass": "excersice.FlipDigitWithPosition",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "GreatestOfThree",
+            "request": "launch",
+            "mainClass": "excersice.GreatestOfThree",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumber",
+            "request": "launch",
+            "mainClass": "excersice.PrimeNumber",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Quiz",
+            "request": "launch",
+            "mainClass": "excersice.Quiz",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "ReverseNumber",
+            "request": "launch",
+            "mainClass": "excersice.ReverseNumber",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "methodoverloading",
+            "request": "launch",
+            "mainClass": "methodoverloading",
+            "projectName": "Java_4b230fab"
+        }
+    ]
+}
