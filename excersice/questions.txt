@@ -6,3 +6,6 @@ n=4 = 9+99+999+9999
 2. given range n=3
 print series and sum
     1/1! + 2/2! + 3/3!
+
+
+3. Try pattern printing from - codeforwin

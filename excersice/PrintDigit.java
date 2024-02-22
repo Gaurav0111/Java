@@ -13,6 +13,9 @@ public class PrintDigit {
             count -= 1;
             System.out.println(num/(int)Math.pow(10, count));
             num %= (int)Math.pow(10, count);
+            // break;    exit from current loop
+            // continue; will skip current iteration
+            // return;   exit current function
         }
     }
 }

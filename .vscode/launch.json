@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RotatedPyramidPattern",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.RotatedPyramidPattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Pyramidpattern1",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.Pyramidpattern1",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "PyramidPattern",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.PyramidPattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "TrianglePattern",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.TrianglePattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SquarePattern3",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.SquarePattern3",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SquarePatter2",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.SquarePatter2",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SquarePattern",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.SquarePattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "PrintDigit",
             "request": "launch",
             "mainClass": "excersice.PrintDigit",
