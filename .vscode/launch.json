@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrintDigit",
+            "request": "launch",
+            "mainClass": "excersice.PrintDigit",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SalarySlipGeneratorGUI",
+            "request": "launch",
+            "mainClass": "Assignments.SalarySlipGeneratorGUI",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SalarySlipGenerator",
+            "request": "launch",
+            "mainClass": "Assignments.SalarySlipGenerator",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "FactorialSeries",
+            "request": "launch",
+            "mainClass": "excersice.FactorialSeries",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "factorial2",
+            "request": "launch",
+            "mainClass": "excersice.factorial2",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Pattern",
+            "request": "launch",
+            "mainClass": "excersice.Pattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SwapFirstAndLastDigit",
+            "request": "launch",
+            "mainClass": "excersice.SwapFirstAndLastDigit",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "StrongNumber",
+            "request": "launch",
+            "mainClass": "excersice.StrongNumber",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "ArmstrongNumber",
+            "request": "launch",
+            "mainClass": "excersice.ArmstrongNumber",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "RotateANumber",
+            "request": "launch",
+            "mainClass": "excersice.RotateANumber",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "QuickSort",
             "request": "launch",
             "mainClass": "QuickSort",
