@@ -1,11 +1,10 @@
-package Advance_java_code;
+// package Advance_java_code;
 
-import java.util.LinkedList;
-import java.util.Collections;
+import java.util.*;
 
 public class LinkedListOperations {
     public static void main(String[] args) {
-        LinkedList<Integer> linkedList = new LinkedList<>();
+        Queue<Object> linkedList = new LinkedList<>();
 
         linkedList.add(5);
         linkedList.add(2);
@@ -23,13 +22,13 @@ public class LinkedListOperations {
         }
 
         // Sorting
-        Collections.sort(linkedList);
+        // Collections.sort(linkedList);
         System.out.println("Sorted LinkedList: " + linkedList);
 
         // Insertion at a specific position
         int indexToInsert = 2;
         int elementToInsert = 6;
-        linkedList.add(indexToInsert, elementToInsert);
+        // linkedList.add(indexToInsert, elementToInsert);
         System.out.println("LinkedList after inserting " + elementToInsert + " at index " + indexToInsert + ": " + linkedList);
 
         // Deletion

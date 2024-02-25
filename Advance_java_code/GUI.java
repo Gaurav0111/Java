@@ -1,16 +1,17 @@
-package Advance_java_code;
+// package Advance_java_code;
 
 import javax.swing.*;
 import java.awt.*;
+
 class GUI {
     public static void main(String args[]) {
 
-        //Creating the Frame
+        // Creating the Frame
         JFrame frame = new JFrame("Chat Frame");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 400);
 
-        //Creating the MenuBar and adding components
+        // Creating the MenuBar and adding components
         JMenuBar mb = new JMenuBar();
         JMenu m1 = new JMenu("FILE");
         JMenu m2 = new JMenu("Help");
@@ -21,7 +22,7 @@ class GUI {
         m1.add(m11);
         m1.add(m22);
 
-        //Creating the panel at bottom and adding components
+        // Creating the panel at bottom and adding components
         JPanel panel = new JPanel(); // the panel is not visible in output
         JLabel label = new JLabel("Enter Text");
         JTextField tf = new JTextField(10); // accepts upto 10 characters
@@ -35,7 +36,7 @@ class GUI {
         // Text Area at the Center
         JTextArea ta = new JTextArea();
 
-        //Adding Components to the frame.
+        // Adding Components to the frame.
         frame.getContentPane().add(BorderLayout.SOUTH, panel);
         frame.getContentPane().add(BorderLayout.NORTH, mb);
         frame.getContentPane().add(BorderLayout.CENTER, ta);

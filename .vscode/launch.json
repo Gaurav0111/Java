@@ -6,6 +6,139 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MultipleInheritance",
+            "request": "launch",
+            "mainClass": "MultipleInheritance",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "ComparatorAndComparable",
+            "request": "launch",
+            "mainClass": "ComparatorAndComparable",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Sets",
+            "request": "launch",
+            "mainClass": "Sets",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "stackk",
+            "request": "launch",
+            "mainClass": "stackk",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListOperations",
+            "request": "launch",
+            "mainClass": "LinkedListOperations",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "MyIterableCollection",
+            "request": "launch",
+            "mainClass": "MyIterableCollection",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist",
+            "request": "launch",
+            "mainClass": "Arraylist",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "FrameWithActionlistener",
+            "request": "launch",
+            "mainClass": "FrameWithActionlistener",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Form",
+            "request": "launch",
+            "mainClass": "Form",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "BorderLayoutExample",
+            "request": "launch",
+            "mainClass": "BorderLayoutExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "GridLayoutExample",
+            "request": "launch",
+            "mainClass": "GridLayoutExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "JListExample",
+            "request": "launch",
+            "mainClass": "JListExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "JComboBoxExample",
+            "request": "launch",
+            "mainClass": "JComboBoxExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "MouseListenerExample",
+            "request": "launch",
+            "mainClass": "MouseListenerExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "ActionListenerExample",
+            "request": "launch",
+            "mainClass": "ActionListenerExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "queue",
+            "request": "launch",
+            "mainClass": "queue",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "AbstractionExample",
+            "request": "launch",
+            "mainClass": "AbstractionExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Encapsulation2",
+            "request": "launch",
+            "mainClass": "Encapsulation2",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Abstraction",
+            "request": "launch",
+            "mainClass": "Abstraction",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "RotatedPyramidPattern",
             "request": "launch",
             "mainClass": "excersice.Nested_Loop.RotatedPyramidPattern",
