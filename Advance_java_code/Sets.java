@@ -38,7 +38,6 @@ public class Sets {
         Iterator<Integer> it = hashset.iterator();
         System.out.print("Iterator Class Implementation: \t");
         while(it.hasNext()){
-            // System.out.println(it[1]);
             System.out.print(it.next()+" ");
         }
     }

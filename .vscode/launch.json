@@ -6,6 +6,195 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReplaceString",
+            "request": "launch",
+            "mainClass": "Recursion.String.ReplaceString",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "FindandRemove",
+            "request": "launch",
+            "mainClass": "Recursion.String.FindandRemove",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "FindAndReplace",
+            "request": "launch",
+            "mainClass": "Recursion.String.FindAndReplace",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "StringReverse",
+            "request": "launch",
+            "mainClass": "Recursion.String.StringReverse",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SearchElementInArray",
+            "request": "launch",
+            "mainClass": "Recursion.SearchElementInArray",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "Recursion.LinearSearch",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "ArrayRecursion",
+            "request": "launch",
+            "mainClass": "Recursion.ArrayRecursion",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "PrintArray",
+            "request": "launch",
+            "mainClass": "Recursion.PrintArray",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "ArraySyntax",
+            "request": "launch",
+            "mainClass": "ArraySyntax",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Recursion.Factorial",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "PrintTable",
+            "request": "launch",
+            "mainClass": "Recursion.PrintTable",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "ArmstrongNumber",
+            "request": "launch",
+            "mainClass": "Recursion.ArmstrongNumber",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "StrongNumber",
+            "request": "launch",
+            "mainClass": "Recursion.StrongNumber",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "NumberOfZeros",
+            "request": "launch",
+            "mainClass": "Recursion.NumberOfZeros",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeNumber",
+            "request": "launch",
+            "mainClass": "Recursion.PalindromeNumber",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "PrintDigit",
+            "request": "launch",
+            "mainClass": "Recursion.PrintDigit",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SumOfDigit",
+            "request": "launch",
+            "mainClass": "Recursion.SumOfDigit",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "EvenAndOdd",
+            "request": "launch",
+            "mainClass": "Recursion.EvenAndOdd",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Recursion",
+            "request": "launch",
+            "mainClass": "Recursion.Recursion",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "hourglassPattern",
+            "request": "launch",
+            "mainClass": "hourglassPattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "XStar",
+            "request": "launch",
+            "mainClass": "XStar",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "MyMouseListener1",
+            "request": "launch",
+            "mainClass": "MyMouseListener1",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Mapping",
+            "request": "launch",
+            "mainClass": "Mapping",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "UnorderedHashSetExample",
+            "request": "launch",
+            "mainClass": "UnorderedHashSetExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "OrderExample",
+            "request": "launch",
+            "mainClass": "OrderExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Sets1",
+            "request": "launch",
+            "mainClass": "Sets1",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "MultipleInheritance",
             "request": "launch",
             "mainClass": "MultipleInheritance",

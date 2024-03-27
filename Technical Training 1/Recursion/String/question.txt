@@ -1,0 +1,8 @@
+remove  consecutive duplicate from the string
+intput = "AAAAABBBBCCCDDDC"
+output = abcdc
+
+
+print adajcent star
+intput = "aabb"
+output = "a*ab*b"
