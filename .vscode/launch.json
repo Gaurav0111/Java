@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BoardDiceGameProblem",
+            "request": "launch",
+            "mainClass": "TreeRecursion.BoardDiceGameProblem",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "MazePathProblem",
+            "request": "launch",
+            "mainClass": "TreeRecursion.MazePathProblem",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "RopeCutProblem",
+            "request": "launch",
+            "mainClass": "TreeRecursion.RopeCutProblem",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "ClimbingStairs",
+            "request": "launch",
+            "mainClass": "TreeRecursion.ClimbingStairs",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciSeries",
+            "request": "launch",
+            "mainClass": "TreeRecursion.FibonacciSeries",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "TreeRecursion1",
+            "request": "launch",
+            "mainClass": "TreeRecursion.TreeRecursion1",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "ReverseBasicPattern",
+            "request": "launch",
+            "mainClass": "Recursion.Pattern.ReverseBasicPattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "BasicPatternreverse",
+            "request": "launch",
+            "mainClass": "Recursion.Pattern.BasicPatternreverse",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "BasicPattern",
+            "request": "launch",
+            "mainClass": "Recursion.Pattern.BasicPattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "ReplaceString",
             "request": "launch",
             "mainClass": "Recursion.String.ReplaceString",
