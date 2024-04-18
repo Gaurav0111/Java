@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubsequenceofString",
+            "request": "launch",
+            "mainClass": "TreeRecursion.SubsequenceofString",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "LetterCombination",
+            "request": "launch",
+            "mainClass": "TreeRecursion.LetterCombination",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "CreatingThreadPool",
+            "request": "launch",
+            "mainClass": "CreatingThreadPool",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "AllAtoZ",
+            "request": "launch",
+            "mainClass": "TreeRecursion.AllAtoZ",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "PayrollApplicationGUI",
+            "request": "launch",
+            "mainClass": "TreeRecursion.PayrollApplicationGUI",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "BoardDiceGameProblem",
             "request": "launch",
             "mainClass": "TreeRecursion.BoardDiceGameProblem",
