@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Mapping {
+public class MapInterface {
     public static void main(String[] args) {
         
         Map<Integer, String> hashMap = new HashMap<>();
@@ -10,11 +10,7 @@ public class Mapping {
         hashMap.put(2, "Two");
         hashMap.put(7, "Two");
         System.out.println("HashMap: " + hashMap);
-
-        Set<Object> hasSet = new HashSet<>();
-        Set<Object> treeSet = new TreeSet<>();
         
-
         Map<Integer, String> treeMap = new TreeMap<>();
         treeMap.put(4, "Four");
         treeMap.put(3, "Three");

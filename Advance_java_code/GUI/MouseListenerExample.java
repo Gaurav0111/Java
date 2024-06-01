@@ -14,7 +14,7 @@ public class MouseListenerExample {
                 System.out.println("Mouse Clicked at: (" + e.getX() + ", " + e.getY() + ")");
             }
 
-            @Override
+            // @Override
             public void mousePressed(MouseEvent e) {}
             
             @Override

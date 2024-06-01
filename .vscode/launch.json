@@ -6,6 +6,237 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Diamond",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.Diamond",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "Example",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "TagParser",
+            "request": "launch",
+            "mainClass": "TagParser",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Practice.Main",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Practice.Solution",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Practice.Test",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "JavaDataType",
+            "request": "launch",
+            "mainClass": "Practice.JavaDataType",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "LeapYear",
+            "request": "launch",
+            "mainClass": "Practice.LeapYear",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Variable",
+            "request": "launch",
+            "mainClass": "Practice.Variable",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Input",
+            "request": "launch",
+            "mainClass": "Practice.Input",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "First",
+            "request": "launch",
+            "mainClass": "Practice.First",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "MyClient",
+            "request": "launch",
+            "mainClass": "MyClient",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "HashSetTOTreeSet",
+            "request": "launch",
+            "mainClass": "HashSetTOTreeSet",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SynchronizationExample",
+            "request": "launch",
+            "mainClass": "SynchronizationExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "ThreadPoolExample",
+            "request": "launch",
+            "mainClass": "ThreadPoolExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "MapInterface",
+            "request": "launch",
+            "mainClass": "MapInterface",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "IterableIteratorExample",
+            "request": "launch",
+            "mainClass": "IterableIteratorExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "ListToSetExample",
+            "request": "launch",
+            "mainClass": "ListToSetExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "MainPanel",
+            "request": "launch",
+            "mainClass": "MainPanel",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "MainFrame",
+            "request": "launch",
+            "mainClass": "MainFrame",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "MyServer",
+            "request": "launch",
+            "mainClass": "MyServer",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SemaphoreExample2",
+            "request": "launch",
+            "mainClass": "SemaphoreExample2",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "GUI",
+            "request": "launch",
+            "mainClass": "GUI",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "MyThreadClass",
+            "request": "launch",
+            "mainClass": "MyThreadClass",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "JDBCDemo",
+            "request": "launch",
+            "mainClass": "JDBCDemo",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "ProducerConsumer",
+            "request": "launch",
+            "mainClass": "ProducerConsumer",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SemaphoreExample1",
+            "request": "launch",
+            "mainClass": "SemaphoreExample1",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SemaphoreExample",
+            "request": "launch",
+            "mainClass": "SemaphoreExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SynchronizedExample",
+            "request": "launch",
+            "mainClass": "SynchronizedExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "NonSynchronizedExample",
+            "request": "launch",
+            "mainClass": "NonSynchronizedExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Demo1",
+            "request": "launch",
+            "mainClass": "OOPS.Demo1",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "SubsequenceofString",
             "request": "launch",
             "mainClass": "TreeRecursion.SubsequenceofString",

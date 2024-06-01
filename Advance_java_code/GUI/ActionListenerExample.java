@@ -16,7 +16,7 @@ public class ActionListenerExample {
             }
         });
 
-        frame.getContentPane().add(button);
+        frame.add(button);
         frame.setSize(300, 200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);

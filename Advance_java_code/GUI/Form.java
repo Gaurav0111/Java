@@ -11,7 +11,7 @@ public class Form {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Login Form");
         JButton button = new JButton("Click");
-        JTextField textArea = new JTextField("Text Field added");
+        JTextField textArea = new JTextField();
         textArea.setBounds(50, 100, 200, 30);
         textArea.setVisible(false);
         button.setBounds(50, 50, 100, 30);
