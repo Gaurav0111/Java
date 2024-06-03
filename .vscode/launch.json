@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumericDiamond",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.NumericDiamond",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Table",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.Table",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "NumberPattern_1",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.NumberPattern_1",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "NumberPattern",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.NumberPattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "DuplicateWords",
+            "request": "launch",
+            "mainClass": "DuplicateWords",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Rombus",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.Rombus",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "StarAndSpace",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.StarAndSpace",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "XPattern",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.XPattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Diagonal",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.Diagonal",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "Diamond",
             "request": "launch",
             "mainClass": "excersice.Nested_Loop.Diamond",
