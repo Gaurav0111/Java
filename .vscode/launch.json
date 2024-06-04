@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumberUPattern",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.NumberUPattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "JavaBigDecimal",
+            "request": "launch",
+            "mainClass": "JavaBigDecimal",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "NumericDiamond",
             "request": "launch",
             "mainClass": "excersice.Nested_Loop.NumericDiamond",
