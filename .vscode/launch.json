@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WPattern",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.WPattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SwastiKPattern",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.SwastiKPattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "HourGlassPattern",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.HourGlassPattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "ArrowPattern",
+            "request": "launch",
+            "mainClass": "excersice.Nested_Loop.ArrowPattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "NumberUPattern",
             "request": "launch",
             "mainClass": "excersice.Nested_Loop.NumberUPattern",
