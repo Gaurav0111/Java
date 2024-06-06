@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class AnyBaseAddition {
+
+    public static int convert(int num, int n_1, int n_2, int i) {
+        if (num <= 0) {
+            int result = 0;
+            return result;
+        }
+        int result = convert(num / n_2, n_1, n_2, i + 1);
+        result += (num % n_2) * ((int) Math.pow(n_1, i));
+        return result;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter base value: ");
+        int num = scanner.nextInt();
+        System.out.print("Enter first value with base "+num);
+        int n_1 = scanner.nextInt();
+        System.out.print("Enter second value with base "+num);
+        int n_2 = scanner.nextInt();   
+    }
+}

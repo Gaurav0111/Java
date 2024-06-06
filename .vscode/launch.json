@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Segregate0sAnd1s",
+            "request": "launch",
+            "mainClass": "Array.Segregate0sAnd1s",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "IsSorted",
+            "request": "launch",
+            "mainClass": "Array.IsSorted",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "FirstAndSecondLargest",
+            "request": "launch",
+            "mainClass": "Array.FirstAndSecondLargest",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "AnyBaseToAnyBase",
             "request": "launch",
             "mainClass": "AnyBaseToAnyBase",
