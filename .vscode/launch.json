@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AnyBaseToAnyBase",
+            "request": "launch",
+            "mainClass": "AnyBaseToAnyBase",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "AnyBaseToDecimal",
+            "request": "launch",
+            "mainClass": "AnyBaseToDecimal",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "GreaterInFour",
+            "request": "launch",
+            "mainClass": "GreaterInFour",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "DecimalToAnyBase",
+            "request": "launch",
+            "mainClass": "DecimalToAnyBase",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "DigitFrequency",
+            "request": "launch",
+            "mainClass": "DigitFrequency",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "WPattern",
             "request": "launch",
             "mainClass": "excersice.Nested_Loop.WPattern",
