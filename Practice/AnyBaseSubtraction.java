@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AnyBaseAddition {
+public class AnyBaseSubtraction {
 
     public static int convert(int num, int n_1, int n_2, int i) {
         if (num <= 0) {

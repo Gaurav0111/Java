@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AnyBaseMultiplication",
+            "request": "launch",
+            "mainClass": "AnyBaseMultiplication",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "AnyBaseAddition",
+            "request": "launch",
+            "mainClass": "AnyBaseAddition",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "Segregate0sAnd1s",
             "request": "launch",
             "mainClass": "Array.Segregate0sAnd1s",

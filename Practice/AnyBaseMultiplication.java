@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AnyBaseAddition {
+public class AnyBaseMultiplication {
 
     public static int convert(int num, int n_1, int n_2, int i) {
         if (num <= 0) {
@@ -22,7 +22,7 @@ public class AnyBaseAddition {
         int num_2 = scanner.nextInt();
         num_1 = convert(num_1, num, 10, 0);
         num_2 = convert(num_2, num, 10, 0);
-        int result = num_1 + num_2;
+        int result = num_1 * num_2;
         System.out.println(convert(result, 10, num, 0));
     }
 }
