@@ -13,7 +13,7 @@ public class Solution {
         for (; left < n; left++) {
             ArrayList<String> innerList2 = new ArrayList<>();
             for (; right < n; right++) {
-                innerList2.add(Array.cop    );
+                // innerList2.add(Array.cop    );
             }
             list.add(innerList2);
         }
