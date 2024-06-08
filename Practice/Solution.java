@@ -19,5 +19,6 @@ public class Solution {
             System.out.println(s);
         }
         System.out.println(list);
+        scanner.close();
     }
 }
