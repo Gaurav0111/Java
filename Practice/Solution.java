@@ -20,5 +20,6 @@ public class Solution {
         }
         System.out.println(list);
         scanner.close();
+        
     }
 }
