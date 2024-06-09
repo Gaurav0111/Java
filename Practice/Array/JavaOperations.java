@@ -26,11 +26,13 @@ class Operation {
         for (int i = pos - 1; i < arr.length - 1; i++) {
             arr[i] = arr[i + 1];
         }
+        size--;
     }
 
     void print() {
-        for (int i : arr) {
-            System.out.print(i + " ");
+        // for (int i : arr) {
+        for (int i = 0; i < size; i++) {
+            System.out.print(arr[i] + " ");
         }
         System.out.println();
     }
