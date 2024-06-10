@@ -29,12 +29,24 @@ class Operation {
         size--;
     }
 
-    void print() {
-        // for (int i : arr) {
+    int search(int num) {
         for (int i = 0; i < size; i++) {
+            if (arr[i] == num) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    void print() {
+        for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
+    }
+
+    void Update(int num, int pos) {
+        arr[pos] = num;
     }
 }
 
@@ -47,8 +59,9 @@ public class JavaOperations {
         System.out.println("1. Insertion");
         System.out.println("2. Deletion");
         System.out.println("3. Update");
-        System.out.println("4. Print");
-        System.out.println("5. Exit");
+        System.out.println("4. Search");
+        System.out.println("5. Print");
+        System.out.println("6. Exit");
         while (true) {
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
@@ -66,12 +79,30 @@ public class JavaOperations {
                     pos = scanner.nextInt();
                     obj.delete(pos);
                     break;
+                case 3:
+                    System.out.println("Enter new element to insert: ");
+                    num = scanner.nextInt();
+                    System.out.println("Enter position of new element: ");
+                    pos = scanner.nextInt();
+                    if (pos < 0 || pos > obj.arr.length)
+                        System.out.println("Position not available");
+                    else
+                        obj.Update(num, pos);
+                    break;
 
                 case 4:
+                    System.out.println("Enter number to search: ");
+                    num = scanner.nextInt();
+                    if (obj.search(num) != -1) {
+                        System.out.println("Element found in index " + obj.search(num) + 1);
+                    } else {
+                        System.out.println("Element not found");
+                    }
+                case 5:
                     obj.print();
                     break;
 
-                case 5:
+                case 6:
                     return;
 
                 default:

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseArray",
+            "request": "launch",
+            "mainClass": "Array.ReverseArray",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "JavaOperations",
             "request": "launch",
             "mainClass": "Array.JavaOperations",
