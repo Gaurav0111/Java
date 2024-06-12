@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortColor",
+            "request": "launch",
+            "mainClass": "Array.SortColor",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "RangeSumQuery",
+            "request": "launch",
+            "mainClass": "Array.RangeSumQuery",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubstringWithoutRepeatingCharacter",
+            "request": "launch",
+            "mainClass": "Array.LongestSubstringWithoutRepeatingCharacter",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "MaxConsecutiveOnes",
             "request": "launch",
             "mainClass": "Array.MaxConsecutiveOnes",
