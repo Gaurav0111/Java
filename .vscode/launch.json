@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RabinKarpAlgo",
+            "request": "launch",
+            "mainClass": "Array.RabinKarpAlgo",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "NaviePattern",
+            "request": "launch",
+            "mainClass": "Array.NaviePattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "Rotate_Array",
             "request": "launch",
             "mainClass": "Array.Rotate_Array",
