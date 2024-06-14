@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Rotate_Array",
+            "request": "launch",
+            "mainClass": "Array.Rotate_Array",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubarrayWithKDistinctCharacter",
+            "request": "launch",
+            "mainClass": "Array.LongestSubarrayWithKDistinctCharacter",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "SortColor",
             "request": "launch",
             "mainClass": "Array.SortColor",

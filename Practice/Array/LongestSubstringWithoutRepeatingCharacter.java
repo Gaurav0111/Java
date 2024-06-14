@@ -7,35 +7,19 @@ class Solution2 {
         if (s.equals("")) {
             return 0;
         }
-        // HashMap<Character, Boolean> map = new HashMap<>();
-        // int size = 0;
-        // int left = 0;
-        // for (int right = 0; right < s.length(); right++) {
-        // char ch = s.charAt(right);
-        // if (map.get(ch) == null) {
-        // map.put(ch, true);
-        // size++;
-        // left = Math.max(left, size);
-        // } else {
-        // size = 0;
-        // map.clear();
-        // }
-        // }
-        // return left;
-        HashMap<Character, Integer> map = new HashMap<>();
-        int maxLength = 0;
+        HashMap<Character, Integer> hashMap = new HashMap<>();
         int start = 0;
-        for (int end = 0; end < s.length(); end++) {
-            char currentChar = s.charAt(end);
-            if (map.containsKey(currentChar) && map.get(currentChar) >= start) {
-                start = map.get(currentChar) + 1;
+        int result = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            if (hashMap.get(ch) != null && hashMap.get(ch) >= start) {
+                start = hashMap.get(ch) + 1;
             }
-            map.put(currentChar, end);
-            int currentLength = end - start + 1;
-            maxLength = Math.max(maxLength, currentLength);
+            hashMap.put(ch, i);
+            int length = i - start + 1;
+            result = Math.max(result, length);
         }
-
-        return maxLength;
+        return result;
     }
 }
 
