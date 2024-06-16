@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sort_Characters_By_Frequency",
+            "request": "launch",
+            "mainClass": "Array.Sort_Characters_By_Frequency",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "FirstNonRepeatingCharcter",
+            "request": "launch",
+            "mainClass": "Array.FirstNonRepeatingCharcter",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "GasStation",
+            "request": "launch",
+            "mainClass": "Array.GasStation",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "RabinKarpAlgo",
             "request": "launch",
             "mainClass": "Array.RabinKarpAlgo",
