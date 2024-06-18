@@ -1,4 +1,4 @@
-package Array;
+package String;
 
 public class NaviePattern {
     public static void main(String[] args) {

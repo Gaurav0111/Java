@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MatrixSnakePattern",
+            "request": "launch",
+            "mainClass": "TwoDArray.MatrixSnakePattern",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "DiagonalSumMatrix",
+            "request": "launch",
+            "mainClass": "TwoDArray.DiagonalSumMatrix",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "Sort_Characters_By_Frequency",
             "request": "launch",
             "mainClass": "Array.Sort_Characters_By_Frequency",

@@ -1,4 +1,4 @@
-package Array;
+package String;
 
 import java.util.*;
 
@@ -14,8 +14,8 @@ class Solution7 {
                 map.put(ch, map.get(ch) + 1);
             }
         }
-        TreeMap<Character, Integer> sortedMap = new TreeMap<>(map);
-        System.out.println(sortedMap);
+        // TreeMap<Character, Integer> sortedMap = new TreeMap<>(map);
+        // System.out.println(sortedMap);
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
             while (entry.getValue() != 0) {
                 str += entry.getKey();
@@ -24,8 +24,8 @@ class Solution7 {
         }
         s = "";
         for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i); // extracts each character
-            s = ch + s; // adds each character in front of the existing string
+            char ch = str.charAt(i);
+            s = ch + s;
         }
         return s;
     }

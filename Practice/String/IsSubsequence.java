@@ -1,4 +1,4 @@
-package Array;
+package String;
 
 class Solution {
     public boolean isSubsequence(String s, String t) {

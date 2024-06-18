@@ -5,6 +5,8 @@ import java.io.*;
 import java.util.*;
 import java.util.stream.*;
 
+import String;
+
 public class LeaderElementArray {
 
 	public static void main(String[] args) throws IOException {
