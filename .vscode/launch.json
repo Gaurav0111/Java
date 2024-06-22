@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SpiralMatrix",
+            "request": "launch",
+            "mainClass": "TwoDArray.SpiralMatrix",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SearchInTwoDMatrix",
+            "request": "launch",
+            "mainClass": "TwoDArray.SearchInTwoDMatrix",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "MatrixSnakePattern",
             "request": "launch",
             "mainClass": "TwoDArray.MatrixSnakePattern",
