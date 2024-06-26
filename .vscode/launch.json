@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SmallestSubArrayWithSumGreaterThanX",
+            "request": "launch",
+            "mainClass": "Array.SmallestSubArrayWithSumGreaterThanX",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SubArrayWithGivenSum",
+            "request": "launch",
+            "mainClass": "Array.SubArrayWithGivenSum",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "LinkedListDemo",
             "request": "launch",
             "mainClass": "DS.LinkedListDemo",
