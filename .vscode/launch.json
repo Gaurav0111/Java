@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveAllDuiplicates",
+            "request": "launch",
+            "mainClass": "DS.RemoveAllDuiplicates",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "MedianOfTwoSortedArray",
+            "request": "launch",
+            "mainClass": "Array.MedianOfTwoSortedArray",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "circular_LinkedList",
             "request": "launch",
             "mainClass": "DS.circular_LinkedList",
