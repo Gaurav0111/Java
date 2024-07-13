@@ -1,126 +1,92 @@
 import os
+import zipfile
 
-# Function to write commands and steps to a text file
-def write_assignment_to_file(filename):
-    with open(filename, 'w') as file:
-        file.write("# Azure Assignment\n\n")
+# Define the folder structure with detailed steps
+assignment_structure = {
+    "Assignment": {
+        "Question1": {
+            "description.txt": """Set up a domain, set up a server on a VM, and use the DNS server for traffic.
 
-        # Step 1: Deploy Linux and Windows Virtual Machines (VMs) and Access Them Using SSH and RDP
-        file.write("## 1. Deploy Linux and Windows Virtual Machines (VMs) and Access Them Using SSH and RDP\n\n")
+Steps:
 
-        # Linux VM Deployment and SSH Access
-        file.write("### Linux VM Deployment and SSH Access\n")
-        file.write("1. **Create a resource group:**\n")
-        file.write("   ```sh\n")
-        file.write("   az group create --name myResourceGroup --location eastus\n")
-        file.write("   ```\n\n")
+1. **Set up a domain on a DNS provider:**
+   - Register a domain through a DNS provider like GoDaddy or Namecheap.
+   - Follow the provider’s instructions to complete the registration.
 
-        file.write("2. **Create a Linux VM:**\n")
-        file.write("   ```sh\n")
-        file.write("   az vm create \\\n")
-        file.write("     --resource-group myResourceGroup \\\n")
-        file.write("     --name myLinuxVM \\\n")
-        file.write("     --image UbuntuLTS \\\n")
-        file.write("     --admin-username azureuser \\\n")
-        file.write("     --generate-ssh-keys\n")
-        file.write("   ```\n\n")
+2. **Create a Virtual Machine (VM) on Azure:**
+   - Log in to the Azure Portal.
+   - Navigate to "Virtual Machines" and click "Create".
+   - Choose the necessary configurations (e.g., image, size, region).
+   - Set up authentication (SSH key or password).
+   - Review and create the VM.
 
-        file.write("3. **Open port 22 for SSH:**\n")
-        file.write("   ```sh\n")
-        file.write("   az vm open-port --port 22 --resource-group myResourceGroup --name myLinuxVM\n")
-        file.write("   ```\n\n")
+3. **Configure the DNS settings to point to the VM:**
+   - Once the VM is created, note its public IP address.
+   - Log in to your DNS provider’s control panel.
+   - Add an “A” record for your domain, pointing to the VM’s public IP address.
 
-        file.write("4. **SSH into the Linux VM:**\n")
-        file.write("   ```sh\n")
-        file.write("   ssh azureuser@<public-ip-address>\n")
-        file.write("   ```\n\n")
+4. **Ensure the VM is set up to handle web traffic:**
+   - Install a web server on your VM (e.g., Apache, Nginx).
+   - Open the necessary ports in the Azure portal (e.g., port 80 for HTTP, port 443 for HTTPS).
 
-        # Windows VM Deployment and RDP Access
-        file.write("### Windows VM Deployment and RDP Access\n")
-        file.write("1. **Create a Windows VM:**\n")
-        file.write("   ```sh\n")
-        file.write("   az vm create \\\n")
-        file.write("     --resource-group myResourceGroup \\\n")
-        file.write("     --name myWindowsVM \\\n")
-        file.write("     --image Win2019Datacenter \\\n")
-        file.write("     --admin-username azureuser \\\n")
-        file.write("     --admin-password myPassword1234\n")
-        file.write("   ```\n\n")
+Resources:
+- [Azure Virtual Network Overview](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
+- [YouTube Video](https://youtu.be/57ZwdztCx2w)""",
+            "resources.txt": "- https://youtu.be/57ZwdztCx2w\n- https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview"
+        },
+        "Question2": {
+            "description.txt": """Create and test Azure Application Gateway.
 
-        file.write("2. **Open port 3389 for RDP:**\n")
-        file.write("   ```sh\n")
-        file.write("   az vm open-port --port 3389 --resource-group myResourceGroup --name myWindowsVM\n")
-        file.write("   ```\n\n")
+Steps:
 
-        file.write("3. **RDP into the Windows VM:**\n")
-        file.write("   - Use an RDP client and connect to `<public-ip-address>` with the username `azureuser` and password `myPassword1234`.\n\n")
+1. **Set up an Azure Application Gateway:**
+   - Log in to the Azure Portal.
+   - Navigate to "Application Gateways" and click "Create".
+   - Fill in the necessary details (e.g., name, region, virtual network).
+   - Set up the frontend IP, backend pools, and routing rules.
 
-        # Step 2: Create an App Service Plan
-        file.write("## 2. Create an App Service Plan\n\n")
+2. **Configure the backend pools, routing rules, and listeners:**
+   - Add backend pool members (e.g., VMs, app services).
+   - Set up HTTP settings and health probes.
+   - Configure listeners and routing rules to handle traffic.
 
-        file.write("1. **Create an App Service Plan:**\n")
-        file.write("   ```sh\n")
-        file.write("   az appservice plan create --name myAppServicePlan --resource-group myResourceGroup --sku FREE\n")
-        file.write("   ```\n\n")
+3. **Test the setup to ensure proper functionality:**
+   - Deploy a sample application on the backend pool members.
+   - Access the application through the Application Gateway’s public IP.
+   - Verify the application is reachable and traffic is correctly routed.
 
-        # Step 3: Provision a Web App and Deploy a Simple Welcome Page
-        file.write("## 3. Provision a Web App and Deploy a Simple Welcome Page\n\n")
+Resources:
+- [Azure Virtual Network Overview](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
+- [YouTube Video](https://youtu.be/-SRk0hHa-S0)""",
+            "resources.txt": "- https://youtu.be/-SRk0hHa-S0\n- https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview"
+        },
+        "Question3": {
+            "description.txt": """Provide the description mentioned (for row 23).
 
-        file.write("1. **Create a Web App:**\n")
-        file.write("   ```sh\n")
-        file.write("   az webapp create --resource-group myResourceGroup --plan myAppServicePlan --name myUniqueAppName\n")
-        file.write("   ```\n\n")
+Description:
+Set up a domain, set up a server on a VM, and use the DNS server for traffic. Follow the provided steps and resources to complete the assignment.""",
+            "resources.txt": "- https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview"
+        }
+    }
+}
 
-        file.write("2. **Deploy a Simple Welcome Page:**\n")
-        file.write("   ```sh\n")
-        file.write("   echo \"<html><body><h1>Welcome to my Web App!</h1></body></html>\" > index.html\n")
-        file.write("   az webapp deployment source config-local-git --name myUniqueAppName --resource-group myResourceGroup\n")
-        file.write("   git init\n")
-        file.write("   git remote add azure $(az webapp deployment source config-local-git --name myUniqueAppName --resource-group myResourceGroup --query url --output tsv)\n")
-        file.write("   git add index.html\n")
-        file.write("   git commit -m \"Initial commit\"\n")
-        file.write("   git push azure master\n")
-        file.write("   ```\n\n")
+# Create the folders and files
+base_path = "/mnt/data/Assignment"
+os.makedirs(base_path, exist_ok=True)
 
-        # Step 4: Create Azure Container Registry (ACR) and Pull Image from ACR
-        file.write("## 4. Create Azure Container Registry (ACR) and Pull Image from ACR\n\n")
+for folder, contents in assignment_structure["Assignment"].items():
+    folder_path = os.path.join(base_path, folder)
+    os.makedirs(folder_path, exist_ok=True)
+    for file, content in contents.items():
+        with open(os.path.join(folder_path, file), "w") as f:
+            f.write(content)
 
-        file.write("1. **Create an ACR:**\n")
-        file.write("   ```sh\n")
-        file.write("   az acr create --resource-group myResourceGroup --name myContainerRegistry --sku Basic\n")
-        file.write("   ```\n\n")
+# Zip the folder
+zip_file_path = "/mnt/data/Assignment_Detailed.zip"
+with zipfile.ZipFile(zip_file_path, 'w') as assignment_zip:
+    for folder, contents in assignment_structure["Assignment"].items():
+        folder_path = os.path.join(base_path, folder)
+        for file in contents:
+            assignment_zip.write(os.path.join(folder_path, file), os.path.relpath(os.path.join(folder_path, file), base_path))
 
-        file.write("2. **Log in to ACR:**\n")
-        file.write("   ```sh\n")
-        file.write("   az acr login --name myContainerRegistry\n")
-        file.write("   ```\n\n")
-
-        file.write("3. **Push an Image to ACR:**\n")
-        file.write("   ```sh\n")
-        file.write("   docker build -t myapp .\n")
-        file.write("   docker tag myapp mycontainerregistry.azurecr.io/myapp:v1\n")
-        file.write("   docker push mycontainerregistry.azurecr.io/myapp:v1\n")
-        file.write("   ```\n\n")
-
-        # Step 5: Create Container Instance and Deploy a Simple Docker Application
-        file.write("## 5. Create Container Instance and Deploy a Simple Docker Application\n\n")
-
-        file.write("1. **Create a Container Instance:**\n")
-        file.write("   ```sh\n")
-        file.write("   az container create --resource-group myResourceGroup --name myContainerInstance --image mycontainerregistry.azurecr.io/myapp:v1 --cpu 1 --memory 1 --registry-login-server mycontainerregistry.azurecr.io --registry-username <username> --registry-password <password>\n")
-        file.write("   ```\n\n")
-
-        # Step 6: Create Container Groups and Test Functionality
-        file.write("## 6. Create Container Groups and Test Functionality\n\n")
-
-        file.write("1. **Create a Container Group:**\n")
-        file.write("   ```sh\n")
-        file.write("   az container create --resource-group myResourceGroup --name myContainerGroup --image mycontainerregistry.azurecr.io/myapp:v1 --cpu 1 --memory 1 --registry-login-server mycontainerregistry.azurecr.io --registry-username <username> --registry-password <password>\n")
-        file.write("   ```\n\n")
-
-# Get the directory of the current script
-current_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Generate the assignment text file in the same directory as the script
-write_assignment_to_file(os.path.join(current_dir, "azure_assignment.txt"))
-print("Assignment file generated successfully.")
+zip_file_path

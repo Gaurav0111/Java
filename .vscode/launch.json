@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ContainerWithMostWater",
+            "request": "launch",
+            "mainClass": "Array.ContainerWithMostWater",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "ReverseANumber",
+            "request": "launch",
+            "mainClass": "excersice.ReverseANumber",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "RemoveAllDuiplicates",
             "request": "launch",
             "mainClass": "DS.RemoveAllDuiplicates",
