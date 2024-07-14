@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AlternativeGroup",
+            "request": "launch",
+            "mainClass": "Array.AlternativeGroup",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "TeenSum",
+            "request": "launch",
+            "mainClass": "Array.TeenSum",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "ContainerWithMostWater",
             "request": "launch",
             "mainClass": "Array.ContainerWithMostWater",

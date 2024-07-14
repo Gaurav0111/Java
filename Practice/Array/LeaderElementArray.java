@@ -3,9 +3,7 @@ package Array;
 //{ Driver Code Starts
 import java.io.*;
 import java.util.*;
-import java.util.stream.*;
 
-import String;
 
 public class LeaderElementArray {
 

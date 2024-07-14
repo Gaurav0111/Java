@@ -29,22 +29,36 @@ public class ContainerWithMostWater {
     // }
     public static int maxArea(int[] height) {
         int maxAre = 0;
-        int currentArea = 0;
-        for (int i = 0; i < height.length; i++) {
-            for (int j = 0; j < height.length; j++) {
-                if (i == j)
-                    continue;
-                currentArea = Math.min(height[i], height[j]) * Math.abs(i - j);
-                maxAre = Math.max(currentArea, maxAre);
-            }
+        int i = 0;
+        int j = height.length - 1;
+        while (i < j) {
+            int currentArea = Math.min(height[i], height[j]) * Math.abs(i - j);
+            maxAre = Math.max(currentArea, maxAre);
+            if (height[i] < height[j])
+                i++;
+            else
+                j--;
         }
         return maxAre;
     }
+    // public static int maxArea(int[] height) {
+    // int maxAre = 0;
+    // int currentArea = 0;
+    // for (int i = 0; i < height.length; i++) {
+    // for (int j = 0; j < height.length; j++) {
+    // if (i == j)
+    // continue;
+    // currentArea = Math.min(height[i], height[j]) * Math.abs(i - j);
+    // maxAre = Math.max(currentArea, maxAre);
+    // }
+    // }
+    // return maxAre;
+    // }
 
     public static void main(String[] args) {
         // int arr[] = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
         // int arr[] = { 1, 2, 1 };
-        int arr[] = { 1, 1};
+        int arr[] = { 1, 1 };
         System.out.println(maxArea(arr));
     }
 }
