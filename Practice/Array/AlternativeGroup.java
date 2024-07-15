@@ -9,14 +9,13 @@ public class AlternativeGroup {
         int left = 0;
         int right = 2;
         while (left < colors.length) {
-            int middle = (left+right)/2;
+            int middle = (left + 1) % colors.length;
             if ((colors[left] == colors[right]) && (colors[right] != colors[middle])) {
                 result += 1;
             }
             right = (right + 1) % colors.length;
-            left = (left + 1) % colors.length;
+            left++;
         }
-
         return result;
     }
 
