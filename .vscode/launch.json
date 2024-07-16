@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FourSumII",
+            "request": "launch",
+            "mainClass": "Array.FourSumII",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "FourSum",
+            "request": "launch",
+            "mainClass": "Array.FourSum",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "MinimumAverageofSmallestandLargestElement",
             "request": "launch",
             "mainClass": "Array.MinimumAverageofSmallestandLargestElement",
