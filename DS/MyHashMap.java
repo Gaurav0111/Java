@@ -1,4 +1,4 @@
-package Array;
+package DS;
 
 import java.util.*;
 

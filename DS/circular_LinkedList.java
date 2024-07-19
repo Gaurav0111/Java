@@ -2,15 +2,15 @@ package DS;
 //{ Driver Code Starts
 import java.util.*;
 
-class Node
-{
-    int data;
-    Node next;
-    Node(int d) {
-        data = d; 
-        next = null;
-    }
-}
+// class Node
+// {
+//     int val;
+//     Node next;
+//     Node(int d) {
+//         val = d; 
+//         next = null;
+//     }
+// }
 
 
 public class circular_LinkedList
@@ -48,7 +48,7 @@ public class circular_LinkedList
         if(node != null)
         {
 			do{
-           System.out.print(temp.data+" ");
+           System.out.print(temp.val+" ");
            temp = temp.next;
 			}while (temp != node);
         }  
@@ -92,7 +92,7 @@ public class circular_LinkedList
 			 /*Node x = head;
 			 while(x!=null)
 			 {
-				 System.out.print(x.data+" ");
+				 System.out.print(x.val+" ");
 				 x = x.next;
 			 }*/
 			llist.circular();
@@ -114,9 +114,9 @@ public class circular_LinkedList
 
 /* Node of a linked list
  class Node {
-   int data;
+   int val;
     Node next;
-    Node(int d)  { data = d;  next = null; }
+    Node(int d)  { val = d;  next = null; }
 }
 */
 
@@ -135,8 +135,8 @@ class gfg
         Node temp1 = head;
         int head1Length, head2Length;
         ArrayList<Integer> lst = new ArrayList<>();
-        while(!lst.contains(temp1.data)){
-            lst.add(temp1.data);
+        while(!lst.contains(temp1.val)){
+            lst.add(temp1.val);
             temp1 = temp1.next;
         }
         if(lst.size()%2==0){
@@ -146,7 +146,7 @@ class gfg
              head1Length = lst.size()/2+1;
         }
         head2Length = lst.size() - head1Length;
-        Node temp = new Node(head.data);
+        Node temp = new Node(head.val);
         while(head1Length>1){
             temp.next = head.next;
             temp = temp.next;
@@ -156,7 +156,7 @@ class gfg
         temp1 = temp.next; 
         temp.next = list.head;
         head1 = temp.next;
-        Node temp2 = new Node(temp1.data);
+        Node temp2 = new Node(temp1.val);
         head2 = temp2;
         while(head2Length>1){
             temp2.next = temp1.next;
@@ -165,7 +165,7 @@ class gfg
             head2Length--;
         }
         temp2.next = temp1.next;
-        System.out.println(": "+temp1.data);
+        System.out.println(": "+temp1.val);
         
         // DO NOT REMOVE THESE 2 LINES
         list.head1 = head1;

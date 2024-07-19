@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LuckyNumberInAMatrix",
+            "request": "launch",
+            "mainClass": "Array.LuckyNumberInAMatrix",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "RemoveLinkedListElement",
+            "request": "launch",
+            "mainClass": "DS.RemoveLinkedListElement",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "DS.Palindrome",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListCycle",
+            "request": "launch",
+            "mainClass": "DS.LinkedListCycle",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "MyClass",
+            "request": "launch",
+            "mainClass": "DS.MyClass",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "MyHashSet",
+            "request": "launch",
+            "mainClass": "DS.MyHashSet",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "MyHashSet",
+            "request": "launch",
+            "mainClass": "Array.MyHashSet",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "FourSumII",
             "request": "launch",
             "mainClass": "Array.FourSumII",

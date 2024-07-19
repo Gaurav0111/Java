@@ -2,15 +2,15 @@ package DS;
 
 import java.util.*;
 
-class Node {
-    int data;
-    Node next;
+// class Node {
+//     int data;
+//     Node next;
 
-    Node(int d) {
-        data = d;
-        next = null;
-    }
-}
+//     Node(int d) {
+//         data = d;
+//         next = null;
+//     }
+// }
 
 public class RemoveAllDuiplicates {
     Node head;
@@ -29,7 +29,7 @@ public class RemoveAllDuiplicates {
     void printList(Node head) {
         Node temp = head;
         while (temp != null) {
-            System.out.print(temp.data + " ");
+            System.out.print(temp.val + " ");
             temp = temp.next;
         }
         System.out.println();
@@ -72,8 +72,8 @@ class Solution {
             Node nt = current.next;
             //     current.next = nt.next;
             // }
-            if(nt.data==current.data){
-                while(nt.next!=null && nt.data!=current.data   ){
+            if(nt.val==current.val){
+                while(nt.next!=null && nt.val!=current.val   ){
                     nt = nt.next;
                 }
             }
