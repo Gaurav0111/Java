@@ -1,4 +1,4 @@
-package DS;
+package DS.LinkedList;
 
 public class RemoveLinkedListElement {
     public static ListNode removeElements(ListNode head, int val) {

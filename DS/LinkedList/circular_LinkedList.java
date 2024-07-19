@@ -1,4 +1,4 @@
-package DS;
+package DS.LinkedList;
 //{ Driver Code Starts
 import java.util.*;
 
