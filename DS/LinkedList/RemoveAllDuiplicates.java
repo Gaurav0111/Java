@@ -70,10 +70,10 @@ class Solution {
         Node current = head;
         while (current != null) {
             Node nt = current.next;
-            //     current.next = nt.next;
+            // current.next = nt.next;
             // }
-            if(nt.val==current.val){
-                while(nt.next!=null && nt.val!=current.val   ){
+            if (nt.val == current.val) {
+                while (nt.next != null && nt.val == current.val) {
                     nt = nt.next;
                 }
             }

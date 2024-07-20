@@ -15,8 +15,9 @@ public class RemoveLinkedListElement {
                 head = null;
                 return head;
             } else
-                head = head.next;
+            head = head.next;
         }
+        // System.out.println("hey");
         ListNode cur = head;
         while (cur.next != null) {
             if (cur.next.val == val) {
@@ -25,16 +26,14 @@ public class RemoveLinkedListElement {
                 cur = cur.next;
             }
         }
-        System.out.println();
         return head;
-
     }
 
     public static void main(String[] args) {
         // int arr[] = { 1, 2, 6, 3, 4, 5, 6};
-        int arr[] = { 7, 7, 7, 7 };
         // int arr[] = { 7, 7, 7, 7, 3, 7, 7, 5, 656, 67, 7, 6, 7, 67, 6, 7, 6, 76, 7,
         // 6, 7, 67, 6, 7, 6, 76, 7};
+        int arr[] = { 1,2,3,3,4,4,5};
         ListNode node = new ListNode(arr[0]);
         ListNode head = node;
         for (int i = 1; i < arr.length; i++) {
@@ -42,7 +41,11 @@ public class RemoveLinkedListElement {
             node.next = temp;
             node = node.next;
         }
-        ListNode result = removeElements(head, 7);
+        // while (head!=null) {
+        //     System.out.println(head.val);
+        //     head = head.next;
+        // }
+        ListNode result = removeElements(head, 4);
         while (result != null) {
             System.out.print(result.val + " ");
             result = result.next;

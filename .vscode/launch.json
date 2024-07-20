@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StackWithLinkedList",
+            "request": "launch",
+            "mainClass": "DS.Stack.StackWithLinkedList",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "StackWithArray",
+            "request": "launch",
+            "mainClass": "DS.Stack.StackWithArray",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "DemoStack",
+            "request": "launch",
+            "mainClass": "DS.Stack.DemoStack",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListCycle",
+            "request": "launch",
+            "mainClass": "DS.LinkedList.LinkedListCycle",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "RemoveAllDuiplicates",
+            "request": "launch",
+            "mainClass": "DS.LinkedList.RemoveAllDuiplicates",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicateFromSortedList",
+            "request": "launch",
+            "mainClass": "DS.LinkedList.RemoveDuplicateFromSortedList",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SwapNodeInPair",
+            "request": "launch",
+            "mainClass": "DS.LinkedList.SwapNodeInPair",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "RemoveLinkedListElement",
+            "request": "launch",
+            "mainClass": "DS.LinkedList.RemoveLinkedListElement",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "LuckyNumberInAMatrix",
             "request": "launch",
             "mainClass": "Array.LuckyNumberInAMatrix",
