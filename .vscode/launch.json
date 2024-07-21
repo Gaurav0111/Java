@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ImplementTwoStackInOneArray",
+            "request": "launch",
+            "mainClass": "DS.Stack.ImplementTwoStackInOneArray",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "StackWithLinkedList",
             "request": "launch",
             "mainClass": "DS.Stack.StackWithLinkedList",

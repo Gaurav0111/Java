@@ -38,7 +38,7 @@ public class LinkedListCycle {
             node.next = temp;
             node = node.next;
         }
-        Node temp = new Node(head.next.val);
+        // Node temp = new Node(head.next.val);
         node.next = head.next;
         while (head != null) {
             System.out.println(head.val);

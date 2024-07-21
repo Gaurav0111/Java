@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ArraySwitch {
+public class ashdhajsd {
     public static void bubbleSort(int[] array, int n) {
         int temp = 0;
         for (int i = 0; i < n; i++) {
@@ -90,5 +90,6 @@ public class ArraySwitch {
                 System.out.println("Invalid choice!!");
                 break;
         }
+        sc.close();
     }
 }

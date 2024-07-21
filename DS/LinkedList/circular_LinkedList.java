@@ -107,6 +107,7 @@ public class circular_LinkedList
 		
         t--;
     }
+    sc.close();
 }
 }
 // } Driver Code Ends
