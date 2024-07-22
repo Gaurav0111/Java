@@ -3,25 +3,6 @@ package DS.Stack;
 import java.util.*;
 
 public class RemoveAllAdjacentDuplicateInString {
-    static String helper(String s) {
-        Stack stack = new Stack<>();
-        for (int i = 0; i < s.length(); i++) {
-            stack.push(s.charAt(i));
-        }
-        s = "";
-        int num = stack.size();
-        for (int i = 0; i < num; i++) {
-            var ch = stack.pop();
-            if (s.isEmpty()) {
-                s = ch + s;
-            } else if (ch.equals(s.charAt(0))) {
-                s = s.substring(1);
-            } else {
-                s = ch + s;
-            }
-        }
-        return s;
-    }
 
     public static String removeDuplicates(String s) {
         Stack stack = new Stack<>();
@@ -68,8 +49,8 @@ public class RemoveAllAdjacentDuplicateInString {
     }
 
     public static void main(String[] args) {
-        System.out.println(helper("aaaaaaab"));
-        // System.out.println(removeDuplicates("azxxzy"));
+        // System.out.println(removeDuplicates("aaaaaaab"));
+        System.out.println(removeDuplicates("azxxzy"));
         // System.out.println(removeDuplicates("aaaaaaaa"));
         // System.out.println(removeDuplicates("aaaaaaaa"));
     }

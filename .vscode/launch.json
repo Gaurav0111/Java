@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PalindromeLinnkedList",
+            "request": "launch",
+            "mainClass": "DS.Stack.PalindromeLinnkedList",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "QueueUsingStack",
+            "request": "launch",
+            "mainClass": "DS.QueueUsingStack",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "ValidParantheses",
             "request": "launch",
             "mainClass": "DS.Stack.ValidParantheses",

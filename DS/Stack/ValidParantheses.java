@@ -1,7 +1,32 @@
 package DS.Stack;
 
+import java.util.*;
+
 public class ValidParantheses {
     public static boolean isValid(String s) {
+        Map<Character, Character> pair = new HashMap<>();
+        pair.put('(', ')');
+        pair.put('{', '}');
+        pair.put('[', ']');
+        Stack<Character> stack = new Stack<>();
+        char brackets[] = s.toCharArray();
+        for (char bracket : brackets) {
+            if (pair.containsKey(bracket)) {
+                stack.push(bracket);
+            } else {
+                if (stack.isEmpty()) {
+                    return false;
+                }
+                char opening = stack.pop();
+                char close = pair.get(opening);
+                if (close != bracket)
+                    return false;
+            }
+        }
+        return stack.isEmpty();
+    }
+
+    public static boolean isValid1(String s) {
         int small = 0;
         int curly = 0;
         int big = 0;
@@ -33,7 +58,9 @@ public class ValidParantheses {
 
     public static void main(String[] args) {
         String s = "([)]";
+        // String s = "()";
         // String s = "{[{[{[{[{[({})]}]}]}]}]}";
+        // System.out.println(isValid(s));
         System.out.println(isValid(s));
     }
 }
