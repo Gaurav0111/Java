@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ValidParantheses",
+            "request": "launch",
+            "mainClass": "DS.Stack.ValidParantheses",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "BaseBallGame",
+            "request": "launch",
+            "mainClass": "DS.Stack.BaseBallGame",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "RemoveOuterMostParanthesis",
+            "request": "launch",
+            "mainClass": "DS.Stack.RemoveOuterMostParanthesis",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "RemoveAllAdjacentDuplicateInString",
+            "request": "launch",
+            "mainClass": "DS.Stack.RemoveAllAdjacentDuplicateInString",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "ImplementTwoStackInOneArray",
             "request": "launch",
             "mainClass": "DS.Stack.ImplementTwoStackInOneArray",
