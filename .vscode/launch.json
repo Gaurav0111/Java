@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimplifyPath",
+            "request": "launch",
+            "mainClass": "DS.Stack.SimplifyPath",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "BackSpaceCompare",
+            "request": "launch",
+            "mainClass": "DS.Stack.BackSpaceCompare",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "PalindromeLinnkedList",
             "request": "launch",
             "mainClass": "DS.Stack.PalindromeLinnkedList",
