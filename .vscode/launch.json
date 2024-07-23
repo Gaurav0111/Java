@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QueueUsingArray",
+            "request": "launch",
+            "mainClass": "DS.Queue.QueueUsingArray",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "DemoQueue",
+            "request": "launch",
+            "mainClass": "DS.Queue.DemoQueue",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "BasicClaculatorII",
+            "request": "launch",
+            "mainClass": "DS.Stack.BasicClaculatorII",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "MakeTheStringGreat",
+            "request": "launch",
+            "mainClass": "DS.Stack.MakeTheStringGreat",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "SimplifyPath",
             "request": "launch",
             "mainClass": "DS.Stack.SimplifyPath",
