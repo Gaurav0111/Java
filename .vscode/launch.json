@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NextGreaterElementIII",
+            "request": "launch",
+            "mainClass": "DS.Stack.NextGreaterElementIII",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "NextGreaterElementII",
+            "request": "launch",
+            "mainClass": "DS.Stack.NextGreaterElementII",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "NextGreaterElement",
+            "request": "launch",
+            "mainClass": "DS.Stack.NextGreaterElement",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "QueueUsingLinkedList",
             "request": "launch",
             "mainClass": "DS.Queue.QueueUsingLinkedList",

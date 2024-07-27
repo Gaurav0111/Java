@@ -4,7 +4,7 @@ import java.util.*;
 
 class MyStack {
 
-    Queue queue = new Queue<>();
+    Queue queue = new ArrayDeque<>();
 
     public MyStack() {
 
@@ -14,17 +14,17 @@ class MyStack {
 
     }
 
-    public int pop() {
+    // public int pop() {
 
-    }
+    // }
 
-    public int top() {
+    // public int top() {
 
-    }
+    // }
 
-    public boolean empty() {
+    // public boolean empty() {
 
-    }
+    // }
 }
 
 /**
