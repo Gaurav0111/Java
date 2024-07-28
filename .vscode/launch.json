@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ThreeSumClosest",
+            "request": "launch",
+            "mainClass": "Array.ThreeSumClosest",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "NextGreaterElementIII",
             "request": "launch",
             "mainClass": "DS.Stack.NextGreaterElementIII",

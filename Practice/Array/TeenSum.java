@@ -55,9 +55,10 @@ public class TeenSum {
     }
 
     public static void main(String[] args) {
-        int arr[] = { -1, 0, 1, 2, -1, -4 };
+        // int arr[] = { -1, 0, 1, 2, -1, -4 };
+        // int arr[] = { -1,2,1,-4 };
         // int arr[] = { 0, 0, 0 };
-        // int arr[] = { 0, 1, 1 };
+        int arr[] = { 0, 1, 1 };
         System.out.println(threeSum(arr));
     }
 }
