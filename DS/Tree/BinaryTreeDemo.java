@@ -30,6 +30,31 @@ class BinaryTreeOperation {
         if (root.right != null)
             print(root.right);
     }
+
+    void preOrder(BinaryTreeNode<Integer> root) {
+        if (root == null)
+            return;
+        System.out.print(root.data + " ");
+        preOrder(root.left);
+        preOrder(root.right);
+    }
+
+    void inOrder(BinaryTreeNode<Integer> root) {
+        if (root == null)
+            return;
+        inOrder(root.left);
+        System.out.print(root.data + " ");
+        inOrder(root.right);
+    }
+
+    void postOrder(BinaryTreeNode<Integer> root) {
+        if (root == null)
+            return;
+        postOrder(root.left);
+        postOrder(root.right);
+        System.out.print(root.data + " ");
+    }
+
 }
 
 public class BinaryTreeDemo {
@@ -38,5 +63,14 @@ public class BinaryTreeDemo {
         // System.out.println(op.add());
         BinaryTreeNode<Integer> result = op.add();
         op.print(result);
+        System.out.println();
+        System.out.print("Pre Order: ");
+        op.preOrder(result);
+        System.out.println();
+        System.out.print("In Order: ");
+        op.inOrder(result);
+        System.out.println();
+        System.out.print("Post Order: ");
+        op.postOrder(result);
     }
 }
