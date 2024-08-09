@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ZigZagConversion",
+            "request": "launch",
+            "mainClass": "String.ZigZagConversion",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "DivideTwointeger",
+            "request": "launch",
+            "mainClass": "Array.DivideTwointeger",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "DesignSum",
+            "request": "launch",
+            "mainClass": "Array.DesignSum",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "BinaryTreeDemo",
             "request": "launch",
             "mainClass": "BinaryTreeDemo",
