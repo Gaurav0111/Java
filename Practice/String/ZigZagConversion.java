@@ -16,4 +16,3 @@ public class ZigZagConversion {
         System.out.println(convert(s, 3));
     }
 }
-// PAHNAPLSIIGYIR

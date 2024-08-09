@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SearchInRotatedSortedArray",
+            "request": "launch",
+            "mainClass": "String.SearchInRotatedSortedArray",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "RomanToInteger",
+            "request": "launch",
+            "mainClass": "String.RomanToInteger",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "ZigZagConversion",
             "request": "launch",
             "mainClass": "String.ZigZagConversion",
