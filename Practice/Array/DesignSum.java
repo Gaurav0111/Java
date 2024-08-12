@@ -7,7 +7,7 @@ class neighborSum {
         arr = new int[grid.length][grid.length];
         arr = grid;
     }
-
+    int temp = Integer.MIN_VALUE;
     public int adjacentSum(int value) {
         int i = 0, j = 0;
         for (i = 0; i < arr.length; i++) {
