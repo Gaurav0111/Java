@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ValidSuduko",
+            "request": "launch",
+            "mainClass": "Array.ValidSuduko",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "SearchInRotatedSortedArray",
             "request": "launch",
             "mainClass": "String.SearchInRotatedSortedArray",

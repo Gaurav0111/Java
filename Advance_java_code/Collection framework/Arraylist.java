@@ -1,5 +1,7 @@
 // package Advance_java_code;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -14,7 +16,8 @@ public class Arraylist {
         mixedList.add(42);                // Integer
         mixedList.add(3.14);              // Double
         mixedList.add(0,3.14);              // Double
-        
+        // System.out.println(list.ge);
+        Collections.sort(null);
         System.out.println(list);
         System.out.println(mixedList);
         System.out.println(mixedList.get(0));
