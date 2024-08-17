@@ -7,7 +7,6 @@ public class MultiplyString {
         BigInteger num_1 = new BigInteger(num1);
         BigInteger num_2 = new BigInteger(num2);
         return ""+ num_1.multiply(num_2) ;
-        Integer.parseInt(num2)   
     }
     public static void main(String[] args) {
         System.out.println(multiply("123456789", "654987321"));
