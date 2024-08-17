@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MultiplyString",
+            "request": "launch",
+            "mainClass": "String.MultiplyString",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "NormalCal",
             "request": "launch",
             "mainClass": "NormalCal",
