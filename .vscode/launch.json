@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindFirstAndLastElementofSortedArray",
+            "request": "launch",
+            "mainClass": "Array.FindFirstAndLastElementofSortedArray",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "temp",
+            "request": "launch",
+            "mainClass": "Recursion.temp",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "PowXN",
+            "request": "launch",
+            "mainClass": "Recursion.PowXN",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "RotateImage",
+            "request": "launch",
+            "mainClass": "Array.RotateImage",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "MultiplyString",
             "request": "launch",
             "mainClass": "String.MultiplyString",
