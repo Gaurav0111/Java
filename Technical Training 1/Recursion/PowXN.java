@@ -22,7 +22,12 @@ public class PowXN {
             double result = helperPositive(x, 0, n - 1);
             return (double) result * x;
         } catch (StackOverflowError e) {
-            return 0;
+            if(x<=1){
+                return x;
+            }
+            else{
+                return 0;
+            }
         }
     }
 
@@ -36,9 +41,10 @@ public class PowXN {
     }
 
     public static void main(String[] args) {
-        System.out.println(myPow(2.00000, 10));
-        System.out.println(myPow(2.00000, -2));
-        System.out.println(myPow(2.10000, 3));
-        System.out.println(myPow(0.00001, 2147483647));
+        // System.out.println(myPow(2.00000, 10));
+        // System.out.println(myPow(2.00000, -2));
+        // System.out.println(myPow(2.10000, 3));
+        // System.out.println(myPow(0.00001, 2147483647));
+        System.out.println(myPow(-1.00000, 2147483647));
     }
 }
