@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubStringWithConcatenation",
+            "request": "launch",
+            "mainClass": "String.SubStringWithConcatenation",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "CombinationGenerator",
+            "request": "launch",
+            "mainClass": "String.CombinationGenerator",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "FirstMissingPositive",
             "request": "launch",
             "mainClass": "Array.FirstMissingPositive",
