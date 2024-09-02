@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongesCommonPrefix",
+            "request": "launch",
+            "mainClass": "String.LongesCommonPrefix",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "KeyboardRow",
+            "request": "launch",
+            "mainClass": "String.KeyboardRow",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "TextJustificationi",
+            "request": "launch",
+            "mainClass": "String.TextJustificationi",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "SubStringWithConcatenation",
             "request": "launch",
             "mainClass": "String.SubStringWithConcatenation",
