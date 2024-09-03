@@ -6,16 +6,31 @@ public class KeyboardRow {
 
     public static boolean firstRowWord(String str) {
         String row = "qwertyuiop";
+        System.out.println("First Row");
+        for(int i=0;i<str.length();i++){
+            if(!row.contains("" + str.toLowerCase().charAt(i)))
+                return false;
+        }
         return true;
     }
-
+    
     public static boolean secondRowWord(String str) {
         String row = "asdfghjkl";
+        System.out.println("Second Row");
+        for(int i=0;i<str.length();i++){
+            if(!row.contains("" + str.toLowerCase().charAt(i)))
+                return false;
+        }
         return true;
     }
-
+    
     public static boolean thirdRowWord(String str) {
         String row = "zxcvbnm";
+        System.out.println("Third Row");
+        for(int i=0;i<str.length();i++){
+            if(!row.contains("" + str.toLowerCase().charAt(i)))
+                return false;
+        }
         return true;
     }
 
@@ -26,13 +41,13 @@ public class KeyboardRow {
         String thirdRow = "zxcvbnm";
 
         for (String str : words) {
-            if (firstRow.contains("" + str.charAt(0))) {
+            if (firstRow.contains("" + str.toLowerCase().charAt(0))) {
                 if (firstRowWord(str))
                     resultList.add(str);
-            } else if (secondRow.contains("" + str.charAt(0))) {
+            } else if (secondRow.contains("" + str.toLowerCase().charAt(0))) {
                 if (secondRowWord(str))
                     resultList.add(str);
-            } else if (thirdRow.contains("" + str.charAt(0))) {
+            } else if (thirdRow.contains("" + str.toLowerCase().charAt(0))) {
                 if (thirdRowWord(str))
                     resultList.add(str);
             }

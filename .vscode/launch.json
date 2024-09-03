@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestPalindrome",
+            "request": "launch",
+            "mainClass": "String.LongestPalindrome",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "LongesCommonPrefix",
             "request": "launch",
             "mainClass": "String.LongesCommonPrefix",
