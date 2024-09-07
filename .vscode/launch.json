@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortedArrayToBinarySearchTree",
+            "request": "launch",
+            "mainClass": "SortedArrayToBinarySearchTree",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "LongestPalindrome",
             "request": "launch",
             "mainClass": "String.LongestPalindrome",
