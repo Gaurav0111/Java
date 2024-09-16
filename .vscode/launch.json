@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseNodesInKGroup",
+            "request": "launch",
+            "mainClass": "DS.LinkedList.ReverseNodesInKGroup",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "SortedArrayToBinarySearchTree",
             "request": "launch",
             "mainClass": "SortedArrayToBinarySearchTree",
