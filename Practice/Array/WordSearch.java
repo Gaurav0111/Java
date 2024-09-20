@@ -2,7 +2,7 @@ package Array;
 
 public class WordSearch {
     public static boolean exist(String[][] board, String word) {
-        
+
     }
 
     public static void main(String[] args) {
