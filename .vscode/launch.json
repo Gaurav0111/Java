@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "temp",
+            "request": "launch",
+            "mainClass": "Array.temp",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "MergeInterval",
             "request": "launch",
             "mainClass": "Array.MergeInterval",
