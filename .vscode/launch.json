@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "Practice.Algo.BinarySearch",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "MYSqrt",
             "request": "launch",
             "mainClass": "Practice.MYSqrt",
