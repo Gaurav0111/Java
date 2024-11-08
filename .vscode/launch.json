@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumberOfMatchingSubSequences",
+            "request": "launch",
+            "mainClass": "Practice.String.NumberOfMatchingSubSequences",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "BinarySearch",
             "request": "launch",
             "mainClass": "Practice.Algo.BinarySearch",
