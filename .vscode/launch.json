@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ToSumArray",
+            "request": "launch",
+            "mainClass": "Practice.Arrayyy.ToSumArray",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "NumberOfMatchingSubSequences",
             "request": "launch",
             "mainClass": "Practice.String.NumberOfMatchingSubSequences",
