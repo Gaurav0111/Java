@@ -1,4 +1,4 @@
-package Practice.Arrayyy;
+// package Practice.Arrayyy;
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -38,11 +38,11 @@ class Result {
         return -1;
         }
 
-    public static int palindromeIndex(String s) {
-    // Write your code here
-    System.out.print(palindrome(s));
-    return -1;
-    }
+    // public static int palindromeIndex(String s) {
+    // // Write your code here
+    // System.out.print(palindrome(s));
+    // return -1;
+    // }
 
 }
 

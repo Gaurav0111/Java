@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Gfg_count_pair",
+            "request": "launch",
+            "mainClass": "Gfg_count_pair",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "SortColor",
+            "request": "launch",
+            "mainClass": "SortColor",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "StringExample",
+            "request": "launch",
+            "mainClass": "StringExample",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "ToSumArray",
             "request": "launch",
             "mainClass": "Practice.Arrayyy.ToSumArray",
