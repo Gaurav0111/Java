@@ -2,15 +2,27 @@
 //{ Driver Code Starts
 import java.io.*;
 import java.lang.*;
+import java.util.*;
 
 class Solution111 {
     int countPairs(int arr[], int target) {
         // Your code here
         int count = 0;
-        for(int i=0;i<arr.length-1;i++){
-            for(int j =i+1;j<arr.length;j++){
-                if(arr[i]+arr[j]<target)
-                    count++;
+        Arrays.sort(arr);
+        // for(int i=0;i<arr.length;i++){
+        //     for(int j =i+1;j<arr.length;j++){
+        //         if(arr[i]+arr[j]<target)
+        //             count++;
+        //     }
+        // }
+        int left=0,right=arr.length-1;
+        while(left<right){
+            if(arr[left]+arr[right]<target){
+                count += right-left;
+                left++;
+            }
+            else{
+                right--;
             }
         }
         return count;
