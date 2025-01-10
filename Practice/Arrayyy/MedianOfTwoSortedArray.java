@@ -1,4 +1,4 @@
-package Practice.Arrayyy;
+// package Practice.Arrayyy;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

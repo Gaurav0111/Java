@@ -1,4 +1,4 @@
-package Practice.Arrayyy;
+// package Practice.Arrayyy;
 
 import java.util.Arrays;
 import java.util.HashMap;
