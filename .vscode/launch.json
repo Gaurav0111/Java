@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Gfg_SubArray_With_Given_Sum",
+            "request": "launch",
+            "mainClass": "Gfg_SubArray_With_Given_Sum",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Gfg_given_sum_in_a_sorted_array",
+            "request": "launch",
+            "mainClass": "Gfg_given_sum_in_a_sorted_array",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
+            "name": "Gfg_closes_sum",
+            "request": "launch",
+            "mainClass": "Gfg_closes_sum",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "Gfg_count_pair",
             "request": "launch",
             "mainClass": "Gfg_count_pair",
