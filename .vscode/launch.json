@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Gfg_Top_K_Frequent_in_Array",
+            "request": "launch",
+            "mainClass": "Gfg_Top_K_Frequent_in_Array",
+            "projectName": "Java_4b230fab"
+        },
+        {
+            "type": "java",
             "name": "Gfg_distinct_element_in_every_window",
             "request": "launch",
             "mainClass": "Gfg_distinct_element_in_every_window",
