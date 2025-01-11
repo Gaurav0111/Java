@@ -61,7 +61,6 @@ class Top_K_Frequent_in_Array {
             int ele = 0;
             for (int j = 0; j < arr.length; j++) {
                 if (!map.containsKey(arr[j])) {
-                    continue;
                 } else if (map.get(arr[j]) >= max) {
                     max = map.get(arr[j]);
                     ele = arr[j];
